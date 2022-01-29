@@ -1,0 +1,9 @@
+[submodule "halflife"]
+	path = halflife
+	url = https://github.com/ValveSoftware/halflife.git
+[submodule "metamod-hl1"]
+	path = metamod-hl1
+	url = https://github.com/alliedmodders/metamod-hl1.git
+[submodule "hlsdk"]
+	path = hlsdk
+	url = https://github.com/alliedmodders/hlsdk.git

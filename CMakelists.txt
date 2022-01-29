@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(podbot)
+include_directories(metamod-hl1/metamod hlsdk/public hlsdk/engine hlsdk/common hlsdk/pm_shared hlsdk/dlls)
+add_library(podbot_mm SHARED bot.cpp bot_chat.cpp bot_client.cpp bot_combat.cpp bot_globals.cpp bot_sounds.cpp compress.cpp dll.cpp engine.cpp util.cpp bot_navigate.cpp waypoint.cpp)
